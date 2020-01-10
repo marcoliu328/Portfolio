@@ -165,6 +165,10 @@ body {
 }
 
 /* Projects */
+.bg-light {
+  background: #f4f4f4;
+}
+
 #projects .container {
   max-width: 1400px;
 }
