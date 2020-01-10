@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: monospace;
+  font-family: "Titillium Web", sans-serif;
   line-height: 1.4;
   color: #333;
   overflow-x: hidden;
@@ -95,7 +95,7 @@ body {
 }
 
 .home-content h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   margin-bottom: 2rem;
 }
 
@@ -128,8 +128,9 @@ body {
 
 #about h2 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 5rem;
+  margin-top: 40px;
 }
 
 #about h3 {
@@ -161,4 +162,49 @@ body {
   width: 75%;
   border-radius: 40%;
   margin-top: 60px;
+}
+
+/* Projects */
+#projects .container h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 100px;
+  margin-bottom: 5rem;
+  padding-top: 90px;
+}
+
+#projects h3 {
+  font-size: 3rem;
+}
+
+#projects .project-image {
+  width: 100%;
+}
+
+#projects .project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin: 50px 0 30px 0;
+}
+
+#projects .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: lightgoldenrodyellow;
+  max-width: 100%;
+}
+
+#projects .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0rem;
+  background: grey;
+  max-width: 50%;
 }
