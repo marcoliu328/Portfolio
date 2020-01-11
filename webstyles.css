@@ -170,7 +170,7 @@ body {
 }
 
 #projects .container {
-  max-width: 1400px;
+  max-width: 1500px;
 }
 
 #projects .container h2 {
@@ -233,4 +233,10 @@ body {
 
 #projects h3 a {
   text-decoration: none;
+}
+
+#footer {
+  text-align: center;
+  font-size: 3rem;
+  margin: 4rem;
 }
