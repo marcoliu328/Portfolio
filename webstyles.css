@@ -29,7 +29,7 @@ body {
 /* Navbar */
 #navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background: #333;
   color: #fff;
   padding: 2rem 12rem;
@@ -39,10 +39,6 @@ body {
   border-bottom: 3px solid #f54029;
 }
 
-#navbar h2 a {
-  color: #fff;
-  text-decoration: none;
-}
 #navbar ul {
   display: flex;
   align-items: center;
@@ -53,13 +49,14 @@ body {
   color: #fff;
   text-decoration: none;
   padding: 1rem;
-  font-size: 1.3rem;
-  margin: 0 0.5rem;
+  font-size: 1.4rem;
+  margin: 0 1rem;
   border-radius: 5px;
   transition: background-color 0.5s;
 }
 
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar h2 a:hover {
   background-color: lightgrey;
 }
 
@@ -159,9 +156,9 @@ body {
 #about .about-image img {
   display: block;
   margin-left: auto;
-  width: 75%;
-  border-radius: 40%;
-  margin-top: 60px;
+  width: 45%;
+  border-radius: 30%;
+  margin-top: 10px;
 }
 
 /* Projects */
