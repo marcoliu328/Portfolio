@@ -127,7 +127,7 @@ body {
   text-align: center;
   font-size: 5rem;
   margin-bottom: 5rem;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 #about h3 {
@@ -156,7 +156,7 @@ body {
 #about .about-image img {
   display: block;
   margin-left: auto;
-  width: 45%;
+  width: 50%;
   border-radius: 30%;
   margin-top: 10px;
 }
@@ -195,7 +195,8 @@ body {
 }
 
 #projects p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  align-self: flex-start;
 }
 
 #projects .project-image {
@@ -228,12 +229,19 @@ body {
   margin: 5rem;
 }
 
-#projects h3 a {
+#projects h3 a,
+#projects p a {
   text-decoration: none;
 }
+
+/* footer */
 
 #footer {
   text-align: center;
   font-size: 3rem;
   margin: 4rem;
+}
+
+#footer p span {
+  text-decoration: none;
 }
